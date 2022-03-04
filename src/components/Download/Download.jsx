@@ -6,8 +6,7 @@ const Download = () => {
       <div className="download__container">
         <div className="download__left">
           <div className="download__left__heading">
-            <h1 className="special">We are a high-level </h1>
-            <h1>data storage bank</h1>
+            <h1>Download Our App</h1>
           </div>
           <div className="download__left__para">
             <p>
@@ -22,7 +21,9 @@ const Download = () => {
           </div>
         </div>
         <div className="download__right">
-          <img src="/assets/phone.png" alt="" />
+          <div className="download__right__image">
+            <img src="/assets/phone.png" alt="phone" />
+          </div>
         </div>
       </div>
     </div>
