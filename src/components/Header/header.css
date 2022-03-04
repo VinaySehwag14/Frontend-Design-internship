@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.header__left {
+  flex: 1;
+  margin-left: 5rem;
+}
+.header__logo {
+  margin-left: 5rem;
+  color: #30fbef;
+}
+.header__logo > h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.header__right {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-left: 22rem;
+}
+.homepage__profiles {
+  display: flex;
+}
+.homepage__profiles > h2:first-child {
+  color: #30fbef;
+}
+.homepage__profiles > h2 {
+  margin-right: 2em;
+}
+
+.header__button > button {
+  color: #30fbef;
+  width: 12rem;
+  height: 3.5rem;
+  text-align: center;
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 40px;
+}
+span {
+  color: purple;
+  font-size: 22px;
+  margin-left: 10px;
+}
