@@ -18,7 +18,7 @@ function App() {
       <Download />
       <Testimonials />
       <Subscribe />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
