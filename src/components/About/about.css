@@ -1,7 +1,60 @@
 .about {
   display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.about__container {
+  display: flex;
   background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
   border: 2px solid #272829;
   box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
   border-radius: 50px;
+  align-items: center;
+  width: 1117px;
+  height: 560px;
+}
+
+.about__left {
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__left > img {
+  width: 80%;
+}
+.about__right {
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 7em;
+  align-items: flex-start;
+  margin-left: 6em;
+}
+
+.about__right__heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #30fbef;
+  margin-top: 2rem;
+  margin-bottom: 1em;
+}
+
+.special {
+  margin-bottom: -25px;
+}
+
+.about__right__para {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
