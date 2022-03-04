@@ -2,7 +2,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <nav className="header fixed w-full z-30 top-0 text-white">
+    <nav className="header">
       <div className="header__left">
         <div className="header__logo">
           <img src="/assets/logo.png" alt="" />
