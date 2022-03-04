@@ -81,6 +81,10 @@ const Features = () => {
             </div>
           </div>
         </div>
+        {/* <div className="features__dots">
+          <img src="/assets/ldot.png" alt="" />
+          <img src="/assets/sdot.png" alt="" />
+        </div> */}
       </div>
       <div className="extra__styles">
         <div className="extra__dots"></div>

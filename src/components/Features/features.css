@@ -7,7 +7,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 74%;
+  width: 71rem;
   height: 50rem;
   background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
   border: 1px solid #272829;
@@ -86,9 +86,22 @@
   display: flex;
 }
 
-.circles {
-  width: 100px;
-  height: 100px;
-  background: red;
-  border-radius: 50%;
+.features__dots {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 0.8rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.features__dots > img:first-child {
+  height: 1rem;
+  margin-left: 1rem;
+}
+.features__dots > img:nth-child(2) {
+  width: 1rem;
+  height: 0.8rem;
+  margin-left: 1rem;
 }

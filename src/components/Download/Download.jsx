@@ -19,6 +19,7 @@ const Download = () => {
               </p>
             </p>
           </div>
+          <button className="download__button">Download</button>
         </div>
         <div className="download__right">
           <div className="download__right__image">

@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
   justify-content: space-around;
 }
 .header__left {
@@ -10,7 +10,15 @@
 .header__logo {
   margin-left: 5rem;
   color: #30fbef;
+  display: flex;
+  align-items: center;
 }
+
+.header__logo > img {
+  width: 4rem;
+  margin-right: 1rem;
+}
+
 .header__logo > h1 {
   font-size: 1.8rem;
   font-weight: 600;

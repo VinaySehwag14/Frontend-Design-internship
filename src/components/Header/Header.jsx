@@ -5,6 +5,7 @@ const Header = () => {
     <nav className="header fixed w-full z-30 top-0 text-white">
       <div className="header__left">
         <div className="header__logo">
+          <img src="/assets/logo.png" alt="" />
           <h1>Insignia</h1>
         </div>
       </div>
